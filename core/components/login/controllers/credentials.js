@@ -27,7 +27,8 @@ angular.module('mm.core.login')
 
     $scope.siteurl = $stateParams.siteurl;
     $scope.credentials = {
-        username: $stateParams.username
+        username: 'raleduc',
+        password: 'raleduc@123'
     };
     $scope.siteChecked = false;
 
@@ -75,6 +76,7 @@ angular.module('mm.core.login')
             return $q.reject();
         }).finally(function() {
             $scope.pageLoaded = true;
+            $scope.login();
         });
     }
 
@@ -174,7 +176,9 @@ angular.module('mm.core.login')
             $mmLoginHelper.treatUserTokenError(siteurl, error);
         }).finally(function() {
             modal.dismiss();
+
         });
+
     };
 
     // An OAuth button was clicked.
