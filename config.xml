@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" id="br.com.raleduc.ead" version="3.3.1">
-  <name>Ionic Build</name>
+  <name>RALEDUC mobile</name>
   <description>&#xD;
-        Ionic Build&#xD;
+        Aplicativo Oficial Raleduc - Tecnologia e Educação&#xD;
     </description>
   <author href="http://moodle.com" email="mobile@moodle.com">&#xD;
         Moodle Mobile team&#xD;
