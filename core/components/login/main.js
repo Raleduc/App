@@ -70,7 +70,8 @@ angular.module('mm.core.login', [])
         controller: 'mmLoginCredentialsCtrl',
         params: {
             siteurl: '',
-            username: '',
+            username: 'visitanteapp',
+            password: 'raleduc@123',
             urltoopen: '', // For content links.
             siteconfig: null
         },

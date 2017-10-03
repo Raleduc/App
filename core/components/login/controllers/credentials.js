@@ -27,8 +27,8 @@ angular.module('mm.core.login')
 
     $scope.siteurl = $stateParams.siteurl;
     $scope.credentials = {
-        username: 'visitanteapp',
-        password: 'raleduc@123'
+        username: $stateParams.username,
+        password:  $stateParams.password
     };
     $scope.siteChecked = false;
 
@@ -78,6 +78,7 @@ angular.module('mm.core.login')
             $scope.pageLoaded = true;
             $scope.login();
         });
+        
     }
 
     // Treat the site's config, setting scope variables.
@@ -165,23 +166,26 @@ angular.module('mm.core.login')
                             // Action should only have 1 site because we're filtering by username.
                             action.action(action.sites[0]);
                         } else {
-                            return $state.go('site.mm_courses');
-                            //return $mmLoginHelper.goToSiteInitialPage();
+                            //return $state.go('site.mm_courses');
+                            return $mmLoginHelper.goToSiteInitialPage();
                         }
                     });
                 } else {
-                    return $state.go('site.mm_courses');
-                  //return $mmLoginHelper.goToSiteInitialPage();
+                    //return $state.go('site.mm_courses');
+                  return $mmLoginHelper.goToSiteInitialPage();
                 }
             });
         }).catch(function(error) {
             $mmLoginHelper.treatUserTokenError(siteurl, error);
         }).finally(function() {
+            
             modal.dismiss();
-
+            
         });
 
     };
+    
+    
 
     // An OAuth button was clicked.
     $scope.oauthClicked = function(provider) {

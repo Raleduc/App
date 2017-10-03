@@ -224,8 +224,8 @@ angular.module('mm.core.login')
             return promise.then(function(frontpage) {
                 // Check avalaibility in priority order.
                 if (frontpage) {
-                    //return $state.go('site.mm_courses');
-                    return $state.go('site.frontpage');
+                    return $state.go('site.mm_courses');
+                    //return $state.go('site.frontpage');
                 } else if (myOverview) {
                     return $state.go('site.myoverview');
                 } else if (myCourses) {
