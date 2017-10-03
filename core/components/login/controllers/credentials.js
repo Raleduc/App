@@ -27,7 +27,7 @@ angular.module('mm.core.login')
 
     $scope.siteurl = $stateParams.siteurl;
     $scope.credentials = {
-        username: 'raleduc',
+        username: 'visitanteapp',
         password: 'raleduc@123'
     };
     $scope.siteChecked = false;
@@ -165,11 +165,13 @@ angular.module('mm.core.login')
                             // Action should only have 1 site because we're filtering by username.
                             action.action(action.sites[0]);
                         } else {
-                            return $mmLoginHelper.goToSiteInitialPage();
+                            return $state.go('site.mm_courses');
+                            //return $mmLoginHelper.goToSiteInitialPage();
                         }
                     });
                 } else {
-                    return $mmLoginHelper.goToSiteInitialPage();
+                    return $state.go('site.mm_courses');
+                  //return $mmLoginHelper.goToSiteInitialPage();
                 }
             });
         }).catch(function(error) {

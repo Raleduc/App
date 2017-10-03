@@ -58,7 +58,8 @@ angular.module('mm.core.login')
     function loadCurrent() {
         if ($mmSite.isLoggedIn()) {
             if (!$mmLoginHelper.isSiteLoggedOut()) {
-                $mmLoginHelper.goToSiteInitialPage();
+                $state.go('site.mm_courses');
+                //$mmLoginHelper.goToSiteInitialPage();
             }
         } else {
             $mmSitesManager.hasSites().then(function() {

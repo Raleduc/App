@@ -107,6 +107,7 @@ angular.module('mm.core.course')
         }).catch(function(error) {
             $mmUtil.showErrorModalDefault(error, 'mm.course.couldnotloadsections', true);
         });
+       console.log("ola ralec") ;
     }
 
     $scope.toggleDownloadSections = function() {

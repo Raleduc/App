@@ -19,12 +19,12 @@ angular.module('mm.core.course')
  *
  * @module mm.core.course
  * @ngdoc controller
- * @name mmCourseSectionCtrl
+ * @name mmseSectionCtrl
  */
 .controller('mmCourseSectionCtrl', function($mmCourse, $mmUtil, $scope, $stateParams, $translate, $mmEvents, $ionicScrollDelegate,
             $mmCourses, $q, mmCoreEventCompletionModuleViewed, $mmCoursePrefetchDelegate, $mmCourseHelper, $timeout) {
 
-    // Default values are Site Home and all sections.
+    // Default values are Site Home and all sections
     var courseId = $stateParams.cid,
         sectionId = $stateParams.sectionid || -1,
         moduleId = $stateParams.mid,
@@ -38,9 +38,11 @@ angular.module('mm.core.course')
         $scope.summary = null;
         $scope.allSections = true;
     }
-
+    
+        
     // Convenience function to fetch section(s).
     function loadContent(sectionId, refresh) {
+         
         return $mmCourses.getUserCourse(courseId, true).catch(function() {
             // User not enrolled in the course or an error occurred, ignore the error.
         }).then(function(course) {
@@ -103,6 +105,7 @@ angular.module('mm.core.course')
                 });
             });
         });
+        
     }
 
     loadContent(sectionId).finally(function() {

@@ -99,7 +99,8 @@ angular.module('mm.core.login')
         $mmSitesManager.loadSite(siteId).then(function() {
             if (!$mmLoginHelper.isSiteLoggedOut()) {
                 $ionicHistory.nextViewOptions({disableBack: true});
-                return $mmLoginHelper.goToSiteInitialPage();
+                  return $state.go('site.mm_courses');
+                //return $mmLoginHelper.goToSiteInitialPage();
             }
         }, function(error) {
             $log.error('Error loading site ' + siteId);

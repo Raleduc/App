@@ -10515,7 +10515,7 @@ a.button {
 .mm-bglogo {
   background-color: #5069a1;
   /* Change this to add a bg image or change color */
-
+  
   background-repeat: no-repeat;
   background-position: center center;
   position: absolute;
@@ -12765,58 +12765,6 @@ li.mm-question-answer-incorrect,
 #mm-settings-languagelabel {
   color: #3a3a3a; }
 
-.bar-side-menu {
-  border-color: transparent;
-  background-color: #004c9f;
-  background-image: linear-gradient(0deg, transparent, transparent 50%, transparent 50%);
-  color: #ffffff;
-  height: 80px !important; }
-  .bar-side-menu .title {
-    color: #ffffff; }
-  .bar-side-menu .item, .bar-side-menu .mm-grades-table .itemcenter, .mm-grades-table .bar-side-menu .itemcenter {
-    background: transparent;
-    border: none; }
-  .bar-side-menu .item-avatar, .bar-side-menu .item-media, .bar-side-menu .item-avatar-center, .bar-side-menu .item-progress {
-    margin-top: 0px !important; }
-    .bar-side-menu .item-avatar h2, .bar-side-menu .item-media h2, .bar-side-menu .item-avatar-center h2, .bar-side-menu .item-progress h2, .bar-side-menu .item-avatar .item .item-heading, .item .bar-side-menu .item-avatar .item-heading, .bar-side-menu .item-media .item .item-heading, .item .bar-side-menu .item-media .item-heading, .bar-side-menu .item-avatar-center .item .item-heading, .item .bar-side-menu .item-avatar-center .item-heading, .bar-side-menu .item-progress .item .item-heading, .item .bar-side-menu .item-progress .item-heading, .bar-side-menu .item-avatar .mm-grades-table .itemcenter .item-heading, .mm-grades-table .itemcenter .bar-side-menu .item-avatar .item-heading, .bar-side-menu .item-media .mm-grades-table .itemcenter .item-heading, .mm-grades-table .itemcenter .bar-side-menu .item-media .item-heading, .bar-side-menu .item-avatar-center .mm-grades-table .itemcenter .item-heading, .mm-grades-table .itemcenter .bar-side-menu .item-avatar-center .item-heading, .bar-side-menu .item-progress .mm-grades-table .itemcenter .item-heading, .mm-grades-table .itemcenter .bar-side-menu .item-progress .item-heading,
-    .bar-side-menu .item-avatar p,
-    .bar-side-menu .item-media p,
-    .bar-side-menu .item-avatar-center p,
-    .bar-side-menu .item-progress p,
-    .bar-side-menu .item-avatar .icon,
-    .bar-side-menu .item-media .icon,
-    .bar-side-menu .item-avatar-center .icon,
-    .bar-side-menu .item-progress .icon {
-      color: #ffffff; }
-
-.has-side-menu-header {
-  top: 80px; }
-
-.mm-sidemenu-menu .item .badge, .mm-sidemenu-menu .mm-grades-table .itemcenter .badge, .mm-grades-table .mm-sidemenu-menu .itemcenter .badge, .mm-sidemenu-menu .item .mma-messages-date span, .mma-messages-date .mm-sidemenu-menu .item span, .mm-sidemenu-menu .mm-grades-table .itemcenter .mma-messages-date span, .mma-messages-date .mm-sidemenu-menu .mm-grades-table .itemcenter span, .mm-grades-table .mm-sidemenu-menu .itemcenter .mma-messages-date span, .mma-messages-date .mm-grades-table .mm-sidemenu-menu .itemcenter span, .mm-sidemenu-menu .item
-.mma-messages-unreadfrom span,
-.mma-messages-unreadfrom .mm-sidemenu-menu .item span, .mm-sidemenu-menu .mm-grades-table .itemcenter
-.mma-messages-unreadfrom span,
-.mma-messages-unreadfrom .mm-sidemenu-menu .mm-grades-table .itemcenter span, .mm-grades-table .mm-sidemenu-menu .itemcenter
-.mma-messages-unreadfrom span,
-.mma-messages-unreadfrom .mm-grades-table .mm-sidemenu-menu .itemcenter span, .mm-sidemenu-menu .item .mma-chat-notice span, .mma-chat-notice .mm-sidemenu-menu .item span, .mm-sidemenu-menu .mm-grades-table .itemcenter .mma-chat-notice span, .mma-chat-notice .mm-sidemenu-menu .mm-grades-table .itemcenter span, .mm-grades-table .mm-sidemenu-menu .itemcenter .mma-chat-notice span, .mma-chat-notice .mm-grades-table .mm-sidemenu-menu .itemcenter span {
-  right: 16px; }
-
-ion-side-menu li .item, ion-side-menu li .mm-grades-table .itemcenter, .mm-grades-table ion-side-menu li .itemcenter,
-ion-side-menu li.item,
-ion-side-menu .mm-grades-table li.itemcenter, .mm-grades-table
-ion-side-menu li.itemcenter {
-  border-color: #dddddd;
-  background-color: #ffffff;
-  color: #3a3a3a; }
-  ion-side-menu li .item .icon, ion-side-menu li .mm-grades-table .itemcenter .icon, .mm-grades-table ion-side-menu li .itemcenter .icon,
-  ion-side-menu li.item .icon,
-  ion-side-menu .mm-grades-table li.itemcenter .icon, .mm-grades-table
-  ion-side-menu li.itemcenter .icon {
-    color: #626262; }
-
-ion-side-menu li.item.item-divider, ion-side-menu .mm-grades-table li.item-divider.itemcenter, .mm-grades-table ion-side-menu li.item-divider.itemcenter {
-  background-color: #f5f5f5; }
-
 .item-course > .icon, .item-course > ion-spinner {
   height: 40px;
   width: 40px;
@@ -13138,6 +13086,58 @@ mm-course-list-item
 mm-course-list-item div.item-icon-left.earlysubmission {
   color: #3a3a3a; }
 
+.bar-side-menu {
+  border-color: transparent;
+  background-color: #004c9f;
+  background-image: linear-gradient(0deg, transparent, transparent 50%, transparent 50%);
+  color: #ffffff;
+  height: 80px !important; }
+  .bar-side-menu .title {
+    color: #ffffff; }
+  .bar-side-menu .item, .bar-side-menu .mm-grades-table .itemcenter, .mm-grades-table .bar-side-menu .itemcenter {
+    background: transparent;
+    border: none; }
+  .bar-side-menu .item-avatar, .bar-side-menu .item-media, .bar-side-menu .item-avatar-center, .bar-side-menu .item-progress {
+    margin-top: 0px !important; }
+    .bar-side-menu .item-avatar h2, .bar-side-menu .item-media h2, .bar-side-menu .item-avatar-center h2, .bar-side-menu .item-progress h2, .bar-side-menu .item-avatar .item .item-heading, .item .bar-side-menu .item-avatar .item-heading, .bar-side-menu .item-media .item .item-heading, .item .bar-side-menu .item-media .item-heading, .bar-side-menu .item-avatar-center .item .item-heading, .item .bar-side-menu .item-avatar-center .item-heading, .bar-side-menu .item-progress .item .item-heading, .item .bar-side-menu .item-progress .item-heading, .bar-side-menu .item-avatar .mm-grades-table .itemcenter .item-heading, .mm-grades-table .itemcenter .bar-side-menu .item-avatar .item-heading, .bar-side-menu .item-media .mm-grades-table .itemcenter .item-heading, .mm-grades-table .itemcenter .bar-side-menu .item-media .item-heading, .bar-side-menu .item-avatar-center .mm-grades-table .itemcenter .item-heading, .mm-grades-table .itemcenter .bar-side-menu .item-avatar-center .item-heading, .bar-side-menu .item-progress .mm-grades-table .itemcenter .item-heading, .mm-grades-table .itemcenter .bar-side-menu .item-progress .item-heading,
+    .bar-side-menu .item-avatar p,
+    .bar-side-menu .item-media p,
+    .bar-side-menu .item-avatar-center p,
+    .bar-side-menu .item-progress p,
+    .bar-side-menu .item-avatar .icon,
+    .bar-side-menu .item-media .icon,
+    .bar-side-menu .item-avatar-center .icon,
+    .bar-side-menu .item-progress .icon {
+      color: #ffffff; }
+
+.has-side-menu-header {
+  top: 80px; }
+
+.mm-sidemenu-menu .item .badge, .mm-sidemenu-menu .mm-grades-table .itemcenter .badge, .mm-grades-table .mm-sidemenu-menu .itemcenter .badge, .mm-sidemenu-menu .item .mma-messages-date span, .mma-messages-date .mm-sidemenu-menu .item span, .mm-sidemenu-menu .mm-grades-table .itemcenter .mma-messages-date span, .mma-messages-date .mm-sidemenu-menu .mm-grades-table .itemcenter span, .mm-grades-table .mm-sidemenu-menu .itemcenter .mma-messages-date span, .mma-messages-date .mm-grades-table .mm-sidemenu-menu .itemcenter span, .mm-sidemenu-menu .item
+.mma-messages-unreadfrom span,
+.mma-messages-unreadfrom .mm-sidemenu-menu .item span, .mm-sidemenu-menu .mm-grades-table .itemcenter
+.mma-messages-unreadfrom span,
+.mma-messages-unreadfrom .mm-sidemenu-menu .mm-grades-table .itemcenter span, .mm-grades-table .mm-sidemenu-menu .itemcenter
+.mma-messages-unreadfrom span,
+.mma-messages-unreadfrom .mm-grades-table .mm-sidemenu-menu .itemcenter span, .mm-sidemenu-menu .item .mma-chat-notice span, .mma-chat-notice .mm-sidemenu-menu .item span, .mm-sidemenu-menu .mm-grades-table .itemcenter .mma-chat-notice span, .mma-chat-notice .mm-sidemenu-menu .mm-grades-table .itemcenter span, .mm-grades-table .mm-sidemenu-menu .itemcenter .mma-chat-notice span, .mma-chat-notice .mm-grades-table .mm-sidemenu-menu .itemcenter span {
+  right: 16px; }
+
+ion-side-menu li .item, ion-side-menu li .mm-grades-table .itemcenter, .mm-grades-table ion-side-menu li .itemcenter,
+ion-side-menu li.item,
+ion-side-menu .mm-grades-table li.itemcenter, .mm-grades-table
+ion-side-menu li.itemcenter {
+  border-color: #dddddd;
+  background-color: #ffffff;
+  color: #3a3a3a; }
+  ion-side-menu li .item .icon, ion-side-menu li .mm-grades-table .itemcenter .icon, .mm-grades-table ion-side-menu li .itemcenter .icon,
+  ion-side-menu li.item .icon,
+  ion-side-menu .mm-grades-table li.itemcenter .icon, .mm-grades-table
+  ion-side-menu li.itemcenter .icon {
+    color: #626262; }
+
+ion-side-menu li.item.item-divider, ion-side-menu .mm-grades-table li.item-divider.itemcenter, .mm-grades-table ion-side-menu li.item-divider.itemcenter {
+  background-color: #f5f5f5; }
+
 .foreground-ion-edit.ion-edit:before {
   position: relative;
   left: 120px;
@@ -13284,6 +13284,41 @@ mm-course-list-item div.item-icon-left.earlysubmission {
     border-bottom: 1px solid #dddddd; }
   .mm-site_myoverview mm-course-list-progress .card .list.block:last-child .item, .mm-site_myoverview mm-course-list-progress .card .list.block:last-child .mm-grades-table .itemcenter, .mm-grades-table .mm-site_myoverview mm-course-list-progress .card .list.block:last-child .itemcenter {
     border-bottom: 0; }
+
+.mma-chat-notice {
+  text-align: center;
+  margin-top: 10px; }
+  .mma-chat-notice span {
+    white-space: normal; }
+
+.mma-chat-input-inset {
+  padding-top: 0;
+  padding-left: 0;
+  padding-bottom: 0; }
+
+.mma-chat-footer-note {
+  color: #444;
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+  width: 100%; }
+
+.mma-chat-send-form {
+  width: 100%; }
+
+.mma-chat-reconnect-button, .button.mma-chat-reconnect-button {
+  margin: 0; }
+
+.mma-mod_chat-users-modal .item-complex .item-avatar, .mma-mod_chat-users-modal .item-complex .item-media, .mma-mod_chat-users-modal .item-complex .item-avatar-center, .mma-mod_chat-users-modal .item-complex .item-progress {
+  padding-bottom: 0; }
+  .mma-mod_chat-users-modal .item-complex .item-avatar .tabs, .mma-mod_chat-users-modal .item-complex .item-media .tabs, .mma-mod_chat-users-modal .item-complex .item-avatar-center .tabs, .mma-mod_chat-users-modal .item-complex .item-progress .tabs {
+    border: 0; }
+
+.mma-mod_chat-users-modal .button-bar {
+  padding: 0;
+  border: 0; }
+  .mma-mod_chat-users-modal .button-bar .button {
+    border: 0; }
 
 .mm-site_mod_assign div.submissioneditable p,
 .mm-site_mod_assign-submission div.submissioneditable p {
@@ -13481,41 +13516,6 @@ p.mma-mod-assign-warning {
 .gradingform_guide .score input {
   margin: 0;
   width: auto; }
-
-.mma-chat-notice {
-  text-align: center;
-  margin-top: 10px; }
-  .mma-chat-notice span {
-    white-space: normal; }
-
-.mma-chat-input-inset {
-  padding-top: 0;
-  padding-left: 0;
-  padding-bottom: 0; }
-
-.mma-chat-footer-note {
-  color: #444;
-  font-size: 14px;
-  text-align: center;
-  margin: 0;
-  width: 100%; }
-
-.mma-chat-send-form {
-  width: 100%; }
-
-.mma-chat-reconnect-button, .button.mma-chat-reconnect-button {
-  margin: 0; }
-
-.mma-mod_chat-users-modal .item-complex .item-avatar, .mma-mod_chat-users-modal .item-complex .item-media, .mma-mod_chat-users-modal .item-complex .item-avatar-center, .mma-mod_chat-users-modal .item-complex .item-progress {
-  padding-bottom: 0; }
-  .mma-mod_chat-users-modal .item-complex .item-avatar .tabs, .mma-mod_chat-users-modal .item-complex .item-media .tabs, .mma-mod_chat-users-modal .item-complex .item-avatar-center .tabs, .mma-mod_chat-users-modal .item-complex .item-progress .tabs {
-    border: 0; }
-
-.mma-mod_chat-users-modal .button-bar {
-  padding: 0;
-  border: 0; }
-  .mma-mod_chat-users-modal .button-bar .button {
-    border: 0; }
 
 .mm-site_mod_choice .chart {
   max-width: 400px;
