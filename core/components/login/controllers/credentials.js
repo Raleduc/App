@@ -27,8 +27,10 @@ angular.module('mm.core.login')
 
     $scope.siteurl = $stateParams.siteurl;
     $scope.credentials = {
+
         username: $stateParams.username,
         password:  $stateParams.password
+
     };
     $scope.siteChecked = false;
 
@@ -76,7 +78,7 @@ angular.module('mm.core.login')
             return $q.reject();
         }).finally(function() {
             $scope.pageLoaded = true;
-            $scope.login();
+            //$scope.login();
         });
         
     }
