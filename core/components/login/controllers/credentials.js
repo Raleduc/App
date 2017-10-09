@@ -78,7 +78,7 @@ angular.module('mm.core.login')
             return $q.reject();
         }).finally(function() {
             $scope.pageLoaded = true;
-            //$scope.login();
+            $scope.login();
         });
         
     }
