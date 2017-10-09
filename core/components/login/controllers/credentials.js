@@ -78,7 +78,7 @@ angular.module('mm.core.login')
             return $q.reject();
         }).finally(function() {
             $scope.pageLoaded = true;
-            //$scope.login();
+            $scope.login();
         });
         
     }
@@ -168,12 +168,12 @@ angular.module('mm.core.login')
                             // Action should only have 1 site because we're filtering by username.
                             action.action(action.sites[0]);
                         } else {
-                            //return $state.go('site.mm_courses');
+                            
                             return $mmLoginHelper.goToSiteInitialPage();
                         }
                     });
                 } else {
-                    //return $state.go('site.mm_courses');
+                    
                   return $mmLoginHelper.goToSiteInitialPage();
                 }
             });
