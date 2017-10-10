@@ -4,7 +4,7 @@
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id        = "br.com.raleduc.ead"
         versionCode = "20200"
-        version   = "3.3.2">
+        version   = "1.1">
     <name>RALEDUC Mobile</name>
 
     <description>
@@ -19,7 +19,7 @@
         <string>3.3.2</string>
     </gap:config-file>
 
-    <gap:platform name="android" />
+    <gap:platform name="ios" />
 
     <access origin="*" />
     <access origin="tel:*" launch-external="yes" />
